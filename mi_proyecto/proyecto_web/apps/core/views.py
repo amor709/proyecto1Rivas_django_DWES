@@ -9,3 +9,6 @@ def inicio(request):
 def privado(request):
     return render(request, 'core/privado.html')
 
+# def logout(request):
+#     if request.method == 'POST':
+        
